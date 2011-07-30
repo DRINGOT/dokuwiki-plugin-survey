@@ -89,7 +89,10 @@ class helper_plugin_survey_survey extends DokuWiki_Plugin {
                 
             } else {
                 
-                dbg("Discarded survey syntaxline: " . $syntaxLine);
+                dbglog(
+                    "Discarded survey syntaxline: " . $syntaxLine,
+                    "Survey-Plugin SanitizeSyntax"
+                );
                 
             }
             
