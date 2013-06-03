@@ -1,7 +1,7 @@
 base   survey
 author Dennis Ploeger
 email  develop@dieploegers.de
-date   2011-07-22
+date   2013-06-03
 name   survey plugin
 desc   Dokuwiki plugin to generate user surveys with multiple levels of questions and answers
 url    http://www.dokuwiki.org/plugin:survey
