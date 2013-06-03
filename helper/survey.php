@@ -145,11 +145,25 @@ class helper_plugin_survey_survey extends DokuWiki_Plugin {
                 
             }
             
-        }
+        } else {
         
-        $lineText = preg_replace("/\*\*([^\*]*)\*\*/", "<b>$1</b>", $lineText);
-        $lineText = preg_replace("/_([^_]*)_/", "<u>$1</u>", $lineText);
-        $lineText = preg_replace("/\/\/([^\/]*)\/\//", "<i>$1</i>", $lineText);
+            $lineText = preg_replace(
+                "/\*\*([^\*]*)\*\*/",
+                "<b>$1</b>",
+                $lineText
+            );
+            $lineText = preg_replace(
+                "/_([^_]*)_/",
+                "<u>$1</u>",
+                $lineText
+            );
+            $lineText = preg_replace(
+                "/\/\/([^\/]*)\/\//",
+                "<i>$1</i>",
+                $lineText
+            );
+
+        }
         
         return $lineText;
         
