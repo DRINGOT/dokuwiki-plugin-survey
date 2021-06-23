@@ -12,8 +12,12 @@ will not work!
 Please refer to http://www.dokuwiki.org/plugins for additional info
 on how to install plugins in DokuWiki.
 
+Base on [Dennis Ploeger](https://github.com/dploeger) & community works.
+
+Contributors:
+[![](https://opencollective.com/html-react-parser/contributors.svg?width=890&button=false)](https://github.com/remarkablemark/html-react-parser/graphs/contributors)
 ----
-Copyright (C) Dennis Ploeger <develop@dieploegers.de>
+Copyright (C) [DRINGOT](https://github.com/DRINGOT)
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
